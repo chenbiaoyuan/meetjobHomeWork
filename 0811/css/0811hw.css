@@ -1,0 +1,138 @@
+body{
+	margin: 0 auto; 
+	height:100%;
+}
+
+#wrapper{
+	min-height:100%; /*整個區塊高度為100%*/
+	margin-bottom:-100px; /*等一下footer的高度會是100px(留給footer空間；否則版面加上footer會往下排 就會形成版面不好看)*/
+}
+#banner{
+	height:70px;
+	width: 100%;
+}
+#menu{
+	height:50px;
+	width: 100%;
+	background-color:#E63C30;
+	color:#ffffff; /*區塊內的文字為白色*/
+}
+#content{
+	width: 100%;
+	min-height:300px;
+}
+
+#title1{
+	float: left;
+	background-color:#5B9AE3;
+	width: 70%;
+	height:100%;
+}
+
+#title1 h2{
+	color: #AB5B15;
+}
+
+#title2{
+	float: left;
+	width: 30%;
+	height:96%;
+	padding-top:2%; 
+	background-color:#2737E6;
+}
+
+#photo1{
+	width: 30%;
+	height: 30%;
+	margin: 2%;
+	float: left;
+}
+
+#photo1 img{
+	width: 100%;
+	height: 80%;
+	border-radius: 15px;
+	
+}
+.photo2{
+	width: 90%;
+	height: 30%;
+	margin-left:2%;
+	margin-top: 2%;
+	text-align: center;
+	background-color:#2737E6;
+}
+.photo2 img{
+	width: 40%;
+	height:40%;
+	margin: 2%;
+}
+#footer{
+	clear: both;
+	width:100%;
+	height:100px;
+	background-color: #000000;
+	color:#ffffff;
+	text-align: center;
+}
+#footer span{
+	font-size: 20px;
+}
+#menu ul{
+	margin-left: 18%;
+	color:#FFFFFF;
+	line-height: 50px;/*亦可使用padding或margin來調整位置*/
+	font-size: 20px;
+}
+
+#menu li{
+	list-style: none;
+	float:left;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+#logo{
+	float: left;
+}
+
+#logo img{
+	width: 100%;
+}
+
+#fb{
+	float: right;
+	margin-right: 1em;
+	margin-top:1em;
+}
+#fb img{
+	width: 60%;
+}
+
+#ig{
+	float: right;
+	margin-right: 1em;
+	margin-top:1em;
+}
+
+#ig img{
+	width: 70%;
+}
+#金三角燈{
+	float:30%;
+	margin-left:2em;
+}
+#紅蓮燈{
+	float:30%;
+	margin-left:2em;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+h2{
+	margin-left: 2%;
+}
+p{
+	margin-left:2%;
+}
